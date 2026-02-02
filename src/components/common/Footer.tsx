@@ -22,13 +22,19 @@ export default function Footer() {
                         <div className={styles.group}>
                             <h4>Contact</h4>
                             <p>Seoul, Korea</p>
-                            <Link href="mailto:contact@dohwa.pro">contact@dohwa.pro</Link>
+                            <Link href="/contact">Contact Info</Link>
+                            <Link href="mailto:kjw@dohwa.pro">contact@dohwa.pro</Link>
                         </div>
                     </div>
                 </div>
 
                 <div className={styles.bottom}>
-                    <p>&copy; {currentYear} DOHWA Engineering Co., Ltd. All rights reserved.</p>
+                    <div className={styles.info}>
+                        <p>(주) 도화기술 | 3소 소장 김진원 | 사업자등록번호 745-86-01353</p>
+                        <p>서울시 강남구 역삼로 9길 13 한신빌딩 5층</p>
+                        <p>Tel. 02-539-0305 | E-mail. kjw@dohwa.pro</p>
+                    </div>
+                    <p className={styles.copyright}>&copy; {currentYear} DOHWA Engineering Co., Ltd. All rights reserved.</p>
                 </div>
             </div>
         </footer>

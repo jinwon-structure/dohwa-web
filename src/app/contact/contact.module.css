@@ -1,0 +1,151 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    background: linear-gradient(135deg, #111 0%, #666 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.infoSection {
+    padding: 40px;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05),
+        0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+.logoBox {
+    margin-bottom: 40px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.infoGroup {
+    display: grid;
+    gap: 32px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.label {
+    font-size: 0.875rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.value {
+    font-size: 1.125rem;
+    color: #111;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.contactActions {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.actionButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.actionButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.actionButton.secondary {
+    background: #f5f5f5;
+    color: #111;
+}
+
+.mapSection {
+    height: 100%;
+    min-height: 600px;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05),
+        0 10px 15px -3px rgba(0, 0, 0, 0.05);
+    background: #f5f5f5;
+}
+
+.mapFrame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 1024px) {
+    .content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .mapSection {
+        min-height: 400px;
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 40px 20px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .infoSection {
+        padding: 24px;
+    }
+}
