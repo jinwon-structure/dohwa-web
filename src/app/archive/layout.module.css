@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.content {
+    flex: 1;
+    min-width: 0;
+    /* Prevents overflow in flex items */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+}

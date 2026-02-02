@@ -1,0 +1,154 @@
+.container {
+    width: 100%;
+}
+
+/* Hero Section */
+.hero {
+    height: 50vh;
+    min-height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.heroTitle {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* Intro Section */
+.intro {
+    padding: 6rem 2rem;
+    background-color: var(--bg-primary);
+    text-align: center;
+}
+
+.introContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.introContent h2 {
+    font-size: 2rem;
+    color: var(--brand-blue);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.introContent p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+/* Services Section */
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem 8rem;
+}
+
+.serviceItem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 4rem 0;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.serviceItem:last-child {
+    border-bottom: none;
+}
+
+.serviceContent {
+    flex: 1;
+    padding-right: 4rem;
+}
+
+.serviceTitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+}
+
+.serviceDesc {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    white-space: pre-line;
+}
+
+.serviceStats {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: 600;
+    color: var(--brand-blue);
+}
+
+.viewDetailBtn {
+    background: transparent;
+    border: 1px solid var(--border-light);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.viewDetailBtn:hover {
+    background: var(--brand-blue);
+    color: white;
+    border-color: var(--brand-blue);
+}
+
+.serviceNumber {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--border-light);
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    .heroes {
+        height: 40vh;
+    }
+
+    .heroTitle {
+        font-size: 2rem;
+    }
+
+    .serviceItem {
+        flex-direction: column-reverse;
+        padding: 3rem 0;
+    }
+
+    .serviceContent {
+        padding-right: 0;
+    }
+
+    .serviceNumber {
+        align-self: flex-start;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+}

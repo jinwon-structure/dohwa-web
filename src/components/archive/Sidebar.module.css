@@ -1,0 +1,58 @@
+.sidebar {
+    width: 250px;
+    position: sticky;
+    top: calc(var(--header-height) + 2rem);
+    height: calc(100vh - var(--header-height) - 4rem);
+    padding-right: 2rem;
+    border-right: 1px solid var(--border-light);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05em;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.item {
+    font-size: 1rem;
+}
+
+.link {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    color: var(--text-primary);
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.link:hover {
+    background-color: var(--bg-secondary);
+    color: var(--brand-tech);
+}
+
+.active {
+    background-color: var(--bg-secondary);
+    color: var(--brand-blue);
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+        /* Mobile implementation TBD (Drawer/Hamburger) */
+    }
+}
