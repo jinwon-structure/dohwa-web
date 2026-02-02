@@ -18,12 +18,7 @@ export default function Footer() {
                             <h4>Company</h4>
                             <Link href="https://www.dohwa.co.kr" target="_blank">Corporate Site</Link>
                             <Link href="/about">About Us</Link>
-                        </div>
-                        <div className={styles.group}>
-                            <h4>Contact</h4>
-                            <p>Seoul, Korea</p>
-                            <Link href="/contact">Contact Info</Link>
-                            <Link href="mailto:kjw@dohwa.pro">contact@dohwa.pro</Link>
+                            <Link href="/contact">Contact Us</Link>
                         </div>
                     </div>
                 </div>
