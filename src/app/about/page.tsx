@@ -35,16 +35,16 @@ export default function AboutPage() {
                     <div className={styles.imageSide}>
                         <div className={styles.imageMain}>
                             <Image
-                                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop"
-                                alt="Architecture Design"
+                                src="https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=2070&auto=format&fit=crop"
+                                alt="Modern Architecture Facade"
                                 fill
                                 style={{ objectFit: 'cover' }}
                             />
                         </div>
                         <div className={styles.imageSub}>
                             <Image
-                                src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1000&auto=format&fit=crop"
-                                alt="Calculation"
+                                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2070&auto=format&fit=crop"
+                                alt="Construction Detail"
                                 fill
                                 style={{ objectFit: 'cover' }}
                             />
