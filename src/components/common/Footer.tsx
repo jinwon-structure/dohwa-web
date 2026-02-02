@@ -25,7 +25,7 @@ export default function Footer() {
                     <div className={styles.links}>
                         <div className={styles.group}>
                             <h4>Company</h4>
-                            <Link href="https://www.dohwa.co.kr" target="_blank">Corporate Site</Link>
+                            <Link href="http://www.do-hwa.co.kr" target="_blank">Corporate Site</Link>
                             <Link href="/about">About Us</Link>
                             <Link href="/contact">Contact Us</Link>
                         </div>
