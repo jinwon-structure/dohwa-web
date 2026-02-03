@@ -80,7 +80,7 @@ export default function ContactPage() {
 
                 <div className={styles.mapSection}>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.658396417772!2d127.0326443!3d37.4924194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca14e1a0dfd1f%3A0x6b5e0c5f5e2d1d0!2z7ISc7Jq47Yq567OE7IucIOs1euuCqOq1rCDsl63sSamroCDXqiA56rCAIDEz!5e0!3m2!1sko!2skr!4v1706927000000!5m2!1sko!2skr"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1582.829198208886!2d127.0326443!3d37.4924194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca14e1a0dfd1f%3A0x6b5e0c5f5e2d1d0!2z7ISc7Jq47Yq567OE7IucIOs1euuCqOq1rCDsl63sSamroCDXqiA56rCAIDEz!5e0!3m2!1sko!2skr!4v1706927000000!5m2!1sko!2skr&z=17"
                         className={styles.mapFrame}
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
