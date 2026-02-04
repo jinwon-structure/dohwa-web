@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './LiveTechFeed.module.css';
 import { PostData } from '@/lib/posts';
 
@@ -25,6 +26,16 @@ export default function LiveTechFeed({ posts, showAll = false }: LiveTechFeedPro
                 {displayPosts.map((post) => (
                     <Link href={`/archive/${post.id}`} key={post.id} style={{ textDecoration: 'none' }}>
                         <article className={styles.card}>
+                            {post.image && (
+                                <div className={styles.imageWrapper}>
+                                    <Image
+                                        src={post.image}
+                                        alt={post.title}
+                                        fill
+                                        style={{ objectFit: 'cover' }}
+                                    />
+                                </div>
+                            )}
                             <div className={styles.cardHeader}>
                                 <span className={styles.category}>{post.category}</span>
                                 <h3 className={styles.cardTitle}>{post.title}</h3>
@@ -41,4 +52,3 @@ export default function LiveTechFeed({ posts, showAll = false }: LiveTechFeedPro
         </section>
     );
 }
-

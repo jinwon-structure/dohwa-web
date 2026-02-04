@@ -10,6 +10,7 @@ export interface PostData {
     date: string;
     category: string;
     excerpt: string;
+    image?: string;
     contentHtml?: string;
 }
 
@@ -35,7 +36,7 @@ export function getSortedPostsData(): PostData[] {
         // Combine the data with the id
         return {
             id,
-            ...(matterResult.data as { date: string; title: string; category: string; excerpt: string }),
+            ...(matterResult.data as { date: string; title: string; category: string; excerpt: string; image?: string }),
         };
     });
 
