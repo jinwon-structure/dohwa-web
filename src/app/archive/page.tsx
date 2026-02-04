@@ -2,6 +2,10 @@ import { getSortedPostsData } from '@/lib/posts';
 import LiveTechFeed from '@/components/home/LiveTechFeed';
 import styles from './page.module.css';
 
+// Force dynamic rendering to ensure fresh content on each build
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export default function Archive() {
     const allPostsData = getSortedPostsData();
 
