@@ -16,7 +16,7 @@ export default function Archive() {
                 <p className={styles.subtitle}>Engineering Knowledge Base & Technical Stardards</p>
             </div>
 
-            <LiveTechFeed posts={allPostsData} />
+            <LiveTechFeed posts={allPostsData} showAll={true} />
         </div>
     );
 }

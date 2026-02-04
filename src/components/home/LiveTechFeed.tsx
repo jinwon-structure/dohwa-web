@@ -4,20 +4,25 @@ import { PostData } from '@/lib/posts';
 
 interface LiveTechFeedProps {
     posts: PostData[];
+    showAll?: boolean;
 }
 
-export default function LiveTechFeed({ posts }: LiveTechFeedProps) {
+export default function LiveTechFeed({ posts, showAll = false }: LiveTechFeedProps) {
+    const displayPosts = showAll ? posts : posts.slice(0, 3);
+
     return (
         <section className={styles.section}>
-            <div className={styles.header}>
-                <h2 className={styles.title}>Live Tech Feed</h2>
-                <Link href="/archive" style={{ textDecoration: 'underline', fontSize: '0.9rem' }}>
-                    View All Archives &rarr;
-                </Link>
-            </div>
+            {!showAll && (
+                <div className={styles.header}>
+                    <h2 className={styles.title}>Live Tech Feed</h2>
+                    <Link href="/archive" style={{ textDecoration: 'underline', fontSize: '0.9rem' }}>
+                        View All Archives &rarr;
+                    </Link>
+                </div>
+            )}
 
             <div className={styles.grid}>
-                {posts.slice(0, 3).map((post) => (
+                {displayPosts.map((post) => (
                     <Link href={`/archive/${post.id}`} key={post.id} style={{ textDecoration: 'none' }}>
                         <article className={styles.card}>
                             <div className={styles.cardHeader}>
@@ -36,3 +41,4 @@ export default function LiveTechFeed({ posts }: LiveTechFeedProps) {
         </section>
     );
 }
+
