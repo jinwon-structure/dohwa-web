@@ -38,6 +38,7 @@ export default function Header() {
                 <Link href="/about" className={styles.navLink} onClick={closeMenu}>About</Link>
                 <Link href="/tech" className={styles.navLink} onClick={closeMenu}>Technology</Link>
                 <Link href="/archive" className={styles.navLink} onClick={closeMenu}>Archive</Link>
+                <Link href="/calc" className={styles.navLink} onClick={closeMenu}>Calculator</Link>
                 <Link href="/contact" className={styles.navLink} onClick={closeMenu}>Contact</Link>
             </nav>
         </header>
