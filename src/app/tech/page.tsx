@@ -149,7 +149,7 @@ export default function TechPage() {
             {/* AI Section */}
             <section className={styles.aiSection}>
                 <div className={styles.aiContent}>
-                    <div className={styles.aiIcon}>🤖</div>
+
                     <h2>설계의 진화, 가치의 극대화</h2>
                     <p className={styles.aiSubtitle}>AI 기반 구조 최적화 솔루션</p>
                     <div className={styles.aiFeatures}>
@@ -157,7 +157,7 @@ export default function TechPage() {
                             <span className={styles.aiFeatureIcon}>⚡</span>
                             <div>
                                 <h4>초지능형 설계 생성</h4>
-                                <p>AI 알고리즘으로 수천 개의 설계 대안을 즉각 도출, 최적의 구조 시스템을 제안합니다.</p>
+                                <p>AI 알고리즘으로 다양한 설계 대안을 즉각 도출, 최적의 구조 시스템을 제안합니다.</p>
                             </div>
                         </div>
                         <div className={styles.aiFeature}>
