@@ -19,6 +19,15 @@ const calculators = [
         available: true,
     },
     {
+        id: 'masonry-wall',
+        title: 'Masonry Wall',
+        titleKo: '조적벽체',
+        desc: '조적채움벽의 면외 내진설계를 계산합니다. 벽체 높이, 두께, 지진계수에 따른 설계지진력과 허용높이를 산출합니다.',
+        icon: '🧱',
+        tags: ['조적벽체', 'KDS 41 17 00', '면외력'],
+        available: true,
+    },
+    {
         id: 'wall-mounted',
         title: 'Wall-Mounted Equipment',
         titleKo: '벽체 부착형 장비',

@@ -241,3 +241,50 @@
         font-size: 1.6rem;
     }
 }
+
+/* 판정 결과 스타일 */
+.verdict {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.verdict.pass {
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    border: 1px solid #10b981;
+}
+
+.verdict.fail {
+    background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+    border: 1px solid #ef4444;
+}
+
+.verdictIcon {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.verdict.pass .verdictIcon {
+    color: #059669;
+}
+
+.verdict.fail .verdictIcon {
+    color: #dc2626;
+}
+
+.verdictText {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.verdict.pass .verdictText {
+    color: #047857;
+}
+
+.verdict.fail .verdictText {
+    color: #b91c1c;
+}
