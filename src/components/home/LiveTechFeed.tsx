@@ -15,9 +15,12 @@ export default function LiveTechFeed({ posts, showAll = false }: LiveTechFeedPro
         <section className={styles.section}>
             {!showAll && (
                 <div className={styles.header}>
-                    <h2 className={styles.title}>Live Tech Feed</h2>
-                    <Link href="/archive" style={{ textDecoration: 'underline', fontSize: '0.9rem' }}>
-                        View All Archives &rarr;
+                    <div>
+                        <h2 className={styles.title}>Media</h2>
+                        <p className={styles.subtitle}>도화기술에서 전해드리는 새로운 소식을 지금 만나세요</p>
+                    </div>
+                    <Link href="/archive" className={styles.viewAll}>
+                        전체보기 &rarr;
                     </Link>
                 </div>
             )}

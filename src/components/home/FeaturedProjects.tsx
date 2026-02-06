@@ -32,7 +32,7 @@ export default function FeaturedProjects({ projects }: FeaturedProjectsProps) {
         <section id="featured-projects" className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <h2 className={styles.title}>Featured Projects</h2>
+                    <h2 className={styles.title}>대표 프로젝트</h2>
                     <div className={styles.controls}>
                         <button
                             className={styles.controlBtn}

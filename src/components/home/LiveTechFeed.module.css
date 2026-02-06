@@ -17,6 +17,26 @@
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+.viewAll {
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    transition: color 0.2s;
+}
+
+.viewAll:hover {
+    color: var(--brand-blue);
 }
 
 .grid {
