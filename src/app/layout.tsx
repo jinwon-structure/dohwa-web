@@ -4,8 +4,8 @@ import Footer from "@/components/common/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DOHWA Engineering Archive",
-  description: "Advanced Engineering Technology Archive powered by AI",
+  title: "(주)도화기술 구조설계 사무소",
+  description: "창의적인 엔지니어링 - 구조설계, 내진설계, 비구조요소 내진설계 전문",
 };
 
 export default function RootLayout({

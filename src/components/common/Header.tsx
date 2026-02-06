@@ -18,7 +18,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <Link href="/" className={styles.logo} onClick={closeMenu}>
-                DOHWA ENGINEERING
+                도화기술
             </Link>
 
             <button
@@ -35,11 +35,11 @@ export default function Header() {
             </button>
 
             <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
-                <Link href="/about" className={styles.navLink} onClick={closeMenu}>About</Link>
-                <Link href="/tech" className={styles.navLink} onClick={closeMenu}>Technology</Link>
-                <Link href="/archive" className={styles.navLink} onClick={closeMenu}>Archive</Link>
-                <Link href="/calc" className={styles.navLink} onClick={closeMenu}>Calculator</Link>
-                <Link href="/contact" className={styles.navLink} onClick={closeMenu}>Contact</Link>
+                <Link href="/about" className={styles.navLink} onClick={closeMenu}>회사소개</Link>
+                <Link href="/tech" className={styles.navLink} onClick={closeMenu}>사업소개</Link>
+                <Link href="/archive" className={styles.navLink} onClick={closeMenu}>기술자료</Link>
+                <Link href="/calc" className={styles.navLink} onClick={closeMenu}>계산기</Link>
+                <Link href="/contact" className={styles.navLink} onClick={closeMenu}>문의하기</Link>
             </nav>
         </header>
     );

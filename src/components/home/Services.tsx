@@ -33,7 +33,7 @@ export default function Services() {
         <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <h2 className={styles.title}>Business Area</h2>
+                    <h2 className={styles.title}>사업영역</h2>
                     <p className={styles.subtitle}>도화기술의 경쟁력은 다양한 분야에 특화된 구조설계 솔루션에서 시작됩니다</p>
                 </div>
 

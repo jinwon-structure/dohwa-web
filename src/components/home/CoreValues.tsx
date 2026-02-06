@@ -27,7 +27,7 @@ export default function CoreValues() {
         <section className={styles.section}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <h2 className={styles.title}>Technology Development at Dohwa</h2>
+                    <h2 className={styles.title}>도화기술 핵심가치</h2>
                     <p className={styles.subtitle}>창의적 엔지니어링 기업 도화의 도전은 기술개발에서 시작됩니다.</p>
                 </div>
 

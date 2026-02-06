@@ -51,13 +51,24 @@
     align-items: center;
 }
 
+.tagline {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.15em;
+    margin-bottom: 1rem;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
 .title {
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 800;
-    line-height: 1.05;
+    line-height: 1.15;
     color: #FFFFFF;
     margin-bottom: 2rem;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
     opacity: 0;
     animation: fadeInUp 1s ease-out forwards;
     animation-delay: 0.2s;

@@ -6,21 +6,21 @@ export default function Hero() {
             <div className={styles.heroBackground} />
             <div className={styles.overlay} />
             <div className={styles.content}>
+                <span className={styles.tagline}>Innovative Structural Engineering</span>
                 <h1 className={styles.title}>
-                    Innovative Structural
-                    <span className={styles.highlight}>Engineering</span>
+                    창의적인 <span className={styles.highlight}>엔지니어링</span>
                 </h1>
                 <p className={styles.subtitle}>
-                    Building the future with precision and creativity.<br className="hidden md:block" />
-                    We deliver value through advanced engineering solutions.
+                    혁신적인 엔지니어링과 효율적인 협업을 통해<br />
+                    고객들에게 새로운 가치를 제공합니다.
                 </p>
 
                 <div className={styles.actions}>
                     <a href="/archive" className={styles.primaryButton}>
-                        Explore Archive
+                        기술자료 보기
                     </a>
                     <a href="/contact" className={styles.secondaryButton}>
-                        Contact Us
+                        문의하기
                     </a>
                 </div>
             </div>
