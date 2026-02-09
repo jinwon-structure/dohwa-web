@@ -1,5 +1,5 @@
 ---
-title: '쿠팡 물류센터'
+title: '용인 물류센터'
 category: '물류'
 location: '경기 이천'
 image: '/images/projects/08.jpg'
