@@ -18,7 +18,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <Link href="/" className={styles.logo} onClick={closeMenu}>
-                도화기술
+                (주)도화기술
             </Link>
 
             <button
