@@ -38,7 +38,7 @@ export default function Header() {
                 <Link href="/about" className={styles.navLink} onClick={closeMenu}>회사소개</Link>
                 <Link href="/tech" className={styles.navLink} onClick={closeMenu}>사업소개</Link>
                 <Link href="/archive" className={styles.navLink} onClick={closeMenu}>기술자료</Link>
-                <Link href="/calc" className={styles.navLink} onClick={closeMenu}>계산기</Link>
+                <Link href="/calc" className={styles.navLink} onClick={closeMenu}>내진계산기</Link>
                 <Link href="/contact" className={styles.navLink} onClick={closeMenu}>문의하기</Link>
             </nav>
         </header>
