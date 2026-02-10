@@ -3,8 +3,8 @@ import Image from 'next/image';
 import styles from './contact.module.css';
 
 export const metadata: Metadata = {
-    title: 'Contact - DOHWA Engineering',
-    description: 'Contact DOHWA Engineering. Innovative Structural Engineering & Advanced Technology Archive.',
+    title: '오시는 길 · 연락처',
+    description: '(주)도화기술 오시는 길, 연락처 안내. 서울시 강남구 역삼로 9길 13 한신빌딩 5층. Tel. 02-539-0305',
 };
 
 export default function ContactPage() {

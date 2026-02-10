@@ -40,9 +40,15 @@ export async function generateMetadata({ params }: { params: Promise<ProjectPara
     const project = await getProjectData(slug);
 
     return {
-        title: `${project.title} | Dohwa Engineering`,
-        description: `Learn more about our ${project.category} project: ${project.title} in ${project.location}.`,
+        title: `${project.title} | 도화기술 프로젝트`,
+        description: `도화기술 ${project.category} 프로젝트: ${project.title} - ${project.location}`,
+        alternates: {
+            canonical: `/projects/${slug}`,
+        },
         openGraph: {
+            title: project.title,
+            description: `도화기술 ${project.category} 프로젝트: ${project.title}`,
+            url: `/projects/${slug}`,
             images: [project.image],
         },
     };

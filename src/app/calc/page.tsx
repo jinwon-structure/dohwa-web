@@ -3,8 +3,8 @@ import Link from 'next/link';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-    title: 'Seismic Calculator - DOHWA Engineering',
-    description: '비구조 요소 내진설계 계산기 - 각 요소별 내진 하중 계산',
+    title: '비구조요소 내진설계 계산기',
+    description: '비구조 요소 내진설계 계산기 - KDS 41 17 00 기준에 따른 바닥 설치형 장비, 조적벽체 등 각 요소별 내진 하중 계산',
 };
 
 // 계산기 목록 데이터

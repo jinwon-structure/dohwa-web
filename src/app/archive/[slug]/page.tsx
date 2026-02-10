@@ -37,11 +37,15 @@ export async function generateMetadata({ params }: { params: Promise<PostParams>
     return {
         title: `${postData.title} | Dohwa Engineering`,
         description: postData.excerpt || `Read our technical article about ${postData.title}`,
+        alternates: {
+            canonical: `/archive/${slug}`,
+        },
         openGraph: {
             title: postData.title,
             description: postData.excerpt,
             type: 'article',
             publishedTime: postData.date,
+            url: `/archive/${slug}`,
         },
     };
 }
