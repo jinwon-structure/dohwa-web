@@ -4,7 +4,7 @@ import Footer from "@/components/common/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.dohwa.pro"),
+  metadataBase: new URL("https://dohwa.pro"),
   title: {
     default: "(주)도화기술 구조설계 사무소",
     template: "%s | (주)도화기술",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://www.dohwa.pro",
+    url: "https://dohwa.pro",
     siteName: "(주)도화기술",
     title: "(주)도화기술 구조설계 사무소",
     description:

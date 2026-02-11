@@ -3,7 +3,7 @@ import { getSortedPostsData } from '@/lib/posts';
 import { getSortedProjectsData } from '@/lib/projects';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://www.dohwa.pro';
+    const baseUrl = 'https://dohwa.pro';
 
     // 1. Static Pages
     const staticPages = [
