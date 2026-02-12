@@ -4,7 +4,7 @@ date: '2024-04-10'
 category: 'Seismic'
 excerpt: '포항 지진 이후 의무화된 외부 치장벽돌의 내진설계 기준(KDS 41 17 00)을 분석하고, 현장 상황에 따른 일반설계와 사양설계의 장단점 및 경제성을 비교합니다.'
 relatedLaw: 'KDS 41 17 00'
-image: '/images/posts/seismic-design-veneer-brick/cover.jpg'
+image: '\\dohwa_3so\3so\01 공용자료\23. 홈페이지 이미지\도화기술홈페이지\public\images\posts\seismic-design-veneer-brick/cover.jpg'
 ---
 
 ## 1. 배경 및 개요
@@ -13,7 +13,7 @@ image: '/images/posts/seismic-design-veneer-brick/cover.jpg'
 
 현재 치장벽돌은 **내진설계 대상 건축물**에 설치될 경우 반드시 내진 설계가 적용되어야 합니다.
 
-![포항 지진 당시 치장벽돌 탈락 피해 사례 예시](/images/posts/seismic-design-veneer-brick/01.jpg)
+![포항 지진 당시 치장벽돌 탈락 피해 사례 예시](\\dohwa_3so\3so\01 공용자료\23. 홈페이지 이미지\도화기술홈페이지\public\images\posts\seismic-design-veneer-brick/01.jpg)
 
 ## 2. 검토 시점 및 절차
 
@@ -38,7 +38,7 @@ image: '/images/posts/seismic-design-veneer-brick/cover.jpg'
 * **일반설계**: 앵커 간격 @600 최적화 시 → 약 **1,389개** 소요
 * **사양설계**: 내진설계범주 D 적용 시 → 약 **2,667개** 소요 (약 2배 차이)
 
-![치장벽돌 앵커 설치 상세도 예시](/images/posts/seismic-design-veneer-brick/02.jpg)
+![치장벽돌 앵커 설치 상세도 예시](\\dohwa_3so\3so\01 공용자료\23. 홈페이지 이미지\도화기술홈페이지\public\images\posts\seismic-design-veneer-brick/02.jpg)
 
 ## 4. 사양설계 주요 기준 (KDS 41 17 00 18.3.9.1.2)
 
